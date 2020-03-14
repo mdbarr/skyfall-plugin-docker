@@ -8,11 +8,11 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "docker-modem": "^2.0.4"
+    "docker-modem": "^2.1.1"
   },
   "devDependencies": {
-    "barrkeep": "^2.4.2",
-    "eslint": "^6.7.2"
+    "barrkeep": "^2.6.0",
+    "eslint": "^6.8.0"
   },
   "scripts": {
     "lint": "eslint index.js"
