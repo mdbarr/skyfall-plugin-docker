@@ -1,5 +1,5 @@
 {
-  "name": "@mdbarr/skyfall-plugin-docker",
+  "name": "@hyperingenuity/skyfall-plugin-docker",
   "version": "0.1.0",
   "description": "Skyfall Plugin for Docker Engine Events",
   "main": "index.js",
