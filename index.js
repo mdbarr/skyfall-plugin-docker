@@ -15,8 +15,8 @@ function Docker (skyfall, options) {
     isStream: true,
     statusCodes: {
       200: true,
-      500: 'server error'
-    }
+      500: 'server error',
+    },
   };
 
   modem.dial(optsf, (error, stream) => {
@@ -31,7 +31,7 @@ function Docker (skyfall, options) {
 
         skyfall.events.emit({
           type: `docker:${ event.Type }:${ event.Action }`,
-          data: event
+          data: event,
         });
       } catch (error) {
         console.log(error);
@@ -46,5 +46,5 @@ module.exports = {
   name: 'docker',
   install: (skyfall, options) => {
     skyfall.docker = new Docker(skyfall, options);
-  }
+  },
 };
