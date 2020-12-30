@@ -11,8 +11,8 @@
     "docker-modem": "^2.1.4"
   },
   "devDependencies": {
-    "barrkeep": "^2.6.6",
-    "eslint": "^7.8.1"
+    "barrkeep": "^2.8.0",
+    "eslint": "^7.16.0"
   },
   "scripts": {
     "lint": "eslint index.js"
